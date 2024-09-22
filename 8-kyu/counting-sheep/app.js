@@ -30,7 +30,7 @@ function countSheeps(sheep) {
   // OR
 
   function countTheSheeps(sheep) {
-    console.log(sheep.filter(Boolean))
+    // console.log(sheep.filter(Boolean))
     return sheep.filter(Boolean).length // returns the length an array of only truthy values
   };
 
